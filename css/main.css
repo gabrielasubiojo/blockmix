@@ -9,18 +9,18 @@
 }
 
 body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   min-height: 100vh;
   background-image: url("/images/backimage.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  width: 100%;
 }
 
 .container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+  width: 98%;
 }
 
 /*---------------------The navigation head------------------------*/
@@ -118,7 +118,7 @@ body {
 } 
 
 .containerBox-heading {
-  background-color: rgba(139, 212, 255, 0.466);
+  background-color: rgba(139, 212, 255, 0.205);
   max-width: fit-content;
   border-radius: 6px;
   padding: 10px;
@@ -287,7 +287,7 @@ body {
 
 .bigNav-head {
   font-size: 20px;
-  background-color: rgba(139, 212, 255, 0.466);
+  background-color: rgba(139, 212, 255, 0.205);
   max-width: fit-content;
   border-radius: 6px;
   padding: 10px;
@@ -354,7 +354,7 @@ body {
 }
 
 .containerBox2-heading {
-  background-color: rgba(139, 212, 255, 0.466);
+  background-color: rgba(139, 212, 255, 0.205);
   max-width: fit-content;
   border-radius: 6px;
   padding: 8px;
@@ -476,6 +476,12 @@ body {
     background-size: cover;
   }
 
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
   .navHead {
     margin-left: 15px;
     margin-right: 15px;
@@ -491,8 +497,38 @@ body {
   }
 
   .containerBox-image {
-    width: 330px;
-    height: 330px;
+    width: 280px;
+    height: 230px;
+  }
+
+  .investment {
+    font-family: "Roboto", sans-serif;
+    background-color: #f2f2f2;
+    border: 1px solid rgba(0, 0, 0, 0.377);
+    position: absolute;
+    bottom: 100px;
+    left: -25px;
+    line-height: 1.5rem;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 20px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 15px 5px rgba(0, 0, 0, 0.089);
+  }
+  
+  .investment h3 {
+    color: rgba(0, 0, 255, 0.562);
+  }
+  
+  .investment-price {
+    font-size: 14px;
+    font-weight: 600;
+  }
+  
+  .investment p {
+    font-family: Arial;
+    font-size: 12px;
   }
 
   .containerBox-content {
@@ -500,12 +536,13 @@ body {
   }
 
   .containerBox-content h1 {
-    font-size: 24px;
+    font-size: 20px;
     font-weight: bold;
   }
 
   .containerBox-content p {
-    margin-left: 25px
+    margin-left: 25px;
+    font-size: 15px;
   }
 
   .containerBox-heading {
@@ -521,7 +558,7 @@ body {
   }
 
   .bigNav h2 {
-    font-size: 24px;
+    font-size: 22px;
     font-weight: 100;
     margin-top: 0px;
   }
@@ -555,7 +592,7 @@ body {
   }
 
   .containerBox2-content h1 {
-    font-size: 24px;
+    font-size: 20px;
     font-weight: bold;
     text-align: center;
     margin-top: 0;
@@ -563,7 +600,7 @@ body {
   }
 
   .containerBox2-content p {
-    font-size: 15px;
+    font-size: 14px;
     text-align: center;
     margin-left: 29px;
     margin-top: 0;
